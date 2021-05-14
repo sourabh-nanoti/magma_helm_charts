@@ -3,13 +3,13 @@ entries:
   lte-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-14T17:08:54.627219+08:00"
+    created: "2021-05-14T17:09:45.805961+08:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's lte module
-    digest: 40d3d6a12ab596786e9e1fc575fd6e1b356fcf50d793b6b6ef54b20d80355a8d
+    digest: 3ccf4943351e1c622a4c6299d411ef85e20b62250e430141bdb68396fb281efe
     keywords:
     - magma
     - or8cr
@@ -22,7 +22,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-14T17:08:54.625141+08:00"
+    created: "2021-05-14T17:09:45.804596+08:00"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
@@ -42,7 +42,7 @@ entries:
   orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-14T17:08:54.658432+08:00"
+    created: "2021-05-14T17:09:45.838825+08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -64,7 +64,7 @@ entries:
       repository: file://../orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator
-    digest: a545b6188c0fea1ce9eccca6e0c357316be698bcaa6f43cfb17fa36c977a9722
+    digest: 4dd2e3be18965cf62ec6d99293f145cb16b5a54ddb09ae4deb65c90b24bc6279
     keywords:
     - magma
     - or8cr
@@ -76,7 +76,7 @@ entries:
     version: 1.5.21
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2021-05-14T17:08:54.648186+08:00"
+    created: "2021-05-14T17:09:45.826217+08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -110,7 +110,7 @@ entries:
     version: 1.5.16
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-05-14T17:08:54.635364+08:00"
+    created: "2021-05-14T17:09:45.813967+08:00"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -139,4 +139,4 @@ entries:
     urls:
     - orc8r-1.4.36.tgz
     version: 1.4.36
-generated: "2021-05-14T17:08:54.623036+08:00"
+generated: "2021-05-14T17:09:45.802963+08:00"
